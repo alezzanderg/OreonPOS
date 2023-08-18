@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094BF86E2A8FE80600CC617F /* OreonPOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BF86D2A8FE80600CC617F /* OreonPOSApp.swift */; };
+		094BF8702A8FE80600CC617F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BF86F2A8FE80600CC617F /* Persistence.swift */; };
+		094BF8732A8FE80600CC617F /* OreonPOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 094BF8712A8FE80600CC617F /* OreonPOS.xcdatamodeld */; };
+		094BF8752A8FE80600CC617F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BF8742A8FE80600CC617F /* ContentView.swift */; };
+		094BF8772A8FE80A00CC617F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094BF8762A8FE80A00CC617F /* Assets.xcassets */; };
+		094BF87B2A8FE80A00CC617F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094BF87A2A8FE80A00CC617F /* Preview Assets.xcassets */; };
+		094BF8862A8FE80A00CC617F /* OreonPOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BF8852A8FE80A00CC617F /* OreonPOSTests.swift */; };
+		094BF8902A8FE80A00CC617F /* OreonPOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BF88F2A8FE80A00CC617F /* OreonPOSUITests.swift */; };
+		094BF8922A8FE80A00CC617F /* OreonPOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BF8912A8FE80A00CC617F /* OreonPOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		094BF8822A8FE80A00CC617F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094BF8622A8FE80600CC617F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094BF8692A8FE80600CC617F;
+			remoteInfo = OreonPOS;
+		};
+		094BF88C2A8FE80A00CC617F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094BF8622A8FE80600CC617F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094BF8692A8FE80600CC617F;
+			remoteInfo = OreonPOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094BF86A2A8FE80600CC617F /* OreonPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OreonPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094BF86D2A8FE80600CC617F /* OreonPOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OreonPOSApp.swift; sourceTree = "<group>"; };
+		094BF86F2A8FE80600CC617F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		094BF8722A8FE80600CC617F /* OreonPOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OreonPOS.xcdatamodel; sourceTree = "<group>"; };
+		094BF8742A8FE80600CC617F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		094BF8762A8FE80A00CC617F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094BF8782A8FE80A00CC617F /* OreonPOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OreonPOS.entitlements; sourceTree = "<group>"; };
+		094BF87A2A8FE80A00CC617F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		094BF87C2A8FE80A00CC617F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094BF8812A8FE80A00CC617F /* OreonPOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreonPOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		094BF8852A8FE80A00CC617F /* OreonPOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OreonPOSTests.swift; sourceTree = "<group>"; };
+		094BF88B2A8FE80A00CC617F /* OreonPOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreonPOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		094BF88F2A8FE80A00CC617F /* OreonPOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OreonPOSUITests.swift; sourceTree = "<group>"; };
+		094BF8912A8FE80A00CC617F /* OreonPOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OreonPOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094BF8672A8FE80600CC617F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094BF87E2A8FE80A00CC617F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094BF8882A8FE80A00CC617F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094BF8612A8FE80600CC617F = {
+			isa = PBXGroup;
+			children = (
+				094BF86C2A8FE80600CC617F /* OreonPOS */,
+				094BF8842A8FE80A00CC617F /* OreonPOSTests */,
+				094BF88E2A8FE80A00CC617F /* OreonPOSUITests */,
+				094BF86B2A8FE80600CC617F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		094BF86B2A8FE80600CC617F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094BF86A2A8FE80600CC617F /* OreonPOS.app */,
+				094BF8812A8FE80A00CC617F /* OreonPOSTests.xctest */,
+				094BF88B2A8FE80A00CC617F /* OreonPOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094BF86C2A8FE80600CC617F /* OreonPOS */ = {
+			isa = PBXGroup;
+			children = (
+				094BF86D2A8FE80600CC617F /* OreonPOSApp.swift */,
+				094BF86F2A8FE80600CC617F /* Persistence.swift */,
+				094BF8742A8FE80600CC617F /* ContentView.swift */,
+				094BF8762A8FE80A00CC617F /* Assets.xcassets */,
+				094BF8782A8FE80A00CC617F /* OreonPOS.entitlements */,
+				094BF87C2A8FE80A00CC617F /* Info.plist */,
+				094BF8712A8FE80600CC617F /* OreonPOS.xcdatamodeld */,
+				094BF8792A8FE80A00CC617F /* Preview Content */,
+			);
+			path = OreonPOS;
+			sourceTree = "<group>";
+		};
+		094BF8792A8FE80A00CC617F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				094BF87A2A8FE80A00CC617F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		094BF8842A8FE80A00CC617F /* OreonPOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				094BF8852A8FE80A00CC617F /* OreonPOSTests.swift */,
+			);
+			path = OreonPOSTests;
+			sourceTree = "<group>";
+		};
+		094BF88E2A8FE80A00CC617F /* OreonPOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				094BF88F2A8FE80A00CC617F /* OreonPOSUITests.swift */,
+				094BF8912A8FE80A00CC617F /* OreonPOSUITestsLaunchTests.swift */,
+			);
+			path = OreonPOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094BF8692A8FE80600CC617F /* OreonPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094BF8952A8FE80A00CC617F /* Build configuration list for PBXNativeTarget "OreonPOS" */;
+			buildPhases = (
+				094BF8662A8FE80600CC617F /* Sources */,
+				094BF8672A8FE80600CC617F /* Frameworks */,
+				094BF8682A8FE80600CC617F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OreonPOS;
+			productName = OreonPOS;
+			productReference = 094BF86A2A8FE80600CC617F /* OreonPOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		094BF8802A8FE80A00CC617F /* OreonPOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094BF8982A8FE80A00CC617F /* Build configuration list for PBXNativeTarget "OreonPOSTests" */;
+			buildPhases = (
+				094BF87D2A8FE80A00CC617F /* Sources */,
+				094BF87E2A8FE80A00CC617F /* Frameworks */,
+				094BF87F2A8FE80A00CC617F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094BF8832A8FE80A00CC617F /* PBXTargetDependency */,
+			);
+			name = OreonPOSTests;
+			productName = OreonPOSTests;
+			productReference = 094BF8812A8FE80A00CC617F /* OreonPOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		094BF88A2A8FE80A00CC617F /* OreonPOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094BF89B2A8FE80A00CC617F /* Build configuration list for PBXNativeTarget "OreonPOSUITests" */;
+			buildPhases = (
+				094BF8872A8FE80A00CC617F /* Sources */,
+				094BF8882A8FE80A00CC617F /* Frameworks */,
+				094BF8892A8FE80A00CC617F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094BF88D2A8FE80A00CC617F /* PBXTargetDependency */,
+			);
+			name = OreonPOSUITests;
+			productName = OreonPOSUITests;
+			productReference = 094BF88B2A8FE80A00CC617F /* OreonPOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094BF8622A8FE80600CC617F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					094BF8692A8FE80600CC617F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					094BF8802A8FE80A00CC617F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 094BF8692A8FE80600CC617F;
+					};
+					094BF88A2A8FE80A00CC617F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 094BF8692A8FE80600CC617F;
+					};
+				};
+			};
+			buildConfigurationList = 094BF8652A8FE80600CC617F /* Build configuration list for PBXProject "OreonPOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094BF8612A8FE80600CC617F;
+			productRefGroup = 094BF86B2A8FE80600CC617F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094BF8692A8FE80600CC617F /* OreonPOS */,
+				094BF8802A8FE80A00CC617F /* OreonPOSTests */,
+				094BF88A2A8FE80A00CC617F /* OreonPOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094BF8682A8FE80600CC617F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BF87B2A8FE80A00CC617F /* Preview Assets.xcassets in Resources */,
+				094BF8772A8FE80A00CC617F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094BF87F2A8FE80A00CC617F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094BF8892A8FE80A00CC617F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094BF8662A8FE80600CC617F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BF8732A8FE80600CC617F /* OreonPOS.xcdatamodeld in Sources */,
+				094BF86E2A8FE80600CC617F /* OreonPOSApp.swift in Sources */,
+				094BF8752A8FE80600CC617F /* ContentView.swift in Sources */,
+				094BF8702A8FE80600CC617F /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094BF87D2A8FE80A00CC617F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BF8862A8FE80A00CC617F /* OreonPOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094BF8872A8FE80A00CC617F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BF8922A8FE80A00CC617F /* OreonPOSUITestsLaunchTests.swift in Sources */,
+				094BF8902A8FE80A00CC617F /* OreonPOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094BF8832A8FE80A00CC617F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094BF8692A8FE80600CC617F /* OreonPOS */;
+			targetProxy = 094BF8822A8FE80A00CC617F /* PBXContainerItemProxy */;
+		};
+		094BF88D2A8FE80A00CC617F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094BF8692A8FE80600CC617F /* OreonPOS */;
+			targetProxy = 094BF88C2A8FE80A00CC617F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		094BF8932A8FE80A00CC617F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		094BF8942A8FE80A00CC617F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		094BF8962A8FE80A00CC617F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OreonPOS/OreonPOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OreonPOS/Preview Content\"";
+				DEVELOPMENT_TEAM = VGC93M6M8M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OreonPOS/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axelia.OreonPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094BF8972A8FE80A00CC617F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OreonPOS/OreonPOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OreonPOS/Preview Content\"";
+				DEVELOPMENT_TEAM = VGC93M6M8M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OreonPOS/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axelia.OreonPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		094BF8992A8FE80A00CC617F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VGC93M6M8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axelia.OreonPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OreonPOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OreonPOS";
+			};
+			name = Debug;
+		};
+		094BF89A2A8FE80A00CC617F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VGC93M6M8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axelia.OreonPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OreonPOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OreonPOS";
+			};
+			name = Release;
+		};
+		094BF89C2A8FE80A00CC617F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VGC93M6M8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axelia.OreonPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OreonPOS;
+			};
+			name = Debug;
+		};
+		094BF89D2A8FE80A00CC617F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VGC93M6M8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axelia.OreonPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OreonPOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094BF8652A8FE80600CC617F /* Build configuration list for PBXProject "OreonPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094BF8932A8FE80A00CC617F /* Debug */,
+				094BF8942A8FE80A00CC617F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094BF8952A8FE80A00CC617F /* Build configuration list for PBXNativeTarget "OreonPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094BF8962A8FE80A00CC617F /* Debug */,
+				094BF8972A8FE80A00CC617F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094BF8982A8FE80A00CC617F /* Build configuration list for PBXNativeTarget "OreonPOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094BF8992A8FE80A00CC617F /* Debug */,
+				094BF89A2A8FE80A00CC617F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094BF89B2A8FE80A00CC617F /* Build configuration list for PBXNativeTarget "OreonPOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094BF89C2A8FE80A00CC617F /* Debug */,
+				094BF89D2A8FE80A00CC617F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		094BF8712A8FE80600CC617F /* OreonPOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				094BF8722A8FE80600CC617F /* OreonPOS.xcdatamodel */,
+			);
+			currentVersion = 094BF8722A8FE80600CC617F /* OreonPOS.xcdatamodel */;
+			path = OreonPOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 094BF8622A8FE80600CC617F /* Project object */;
+}
